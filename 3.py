@@ -104,7 +104,7 @@ text3 = font.render('', True, (0,0,0), (255,255,255)) # (text,is smooth?,letter 
 textRect3 = text3.get_rect() # text size
 textRect3.center = (550,265)
 
-btn = Button(150,315,250,50,255,0,0)
+btn = Button(150,315,150,50,255,0,0)
         
 while(1):
     screen.fill((255, 255, 255))
